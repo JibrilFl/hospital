@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #626362;
+	background-color: #f3f0f0;
+	height: 100vh;
+}
+
+.App {
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	gap: 11px;
+	padding-right: 18px;
+}
+
+@media (max-width: 400px) {
+	.App {
+		padding: 0;
+		position: relative;
+	}
+}
